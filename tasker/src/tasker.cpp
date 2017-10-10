@@ -1,16 +1,20 @@
-//============================================================================
-// Name        : tasker.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
+#include "tasker.hpp"
 
-#include <iostream>
+#include <utility>
+
 using namespace std;
 
-int main()
+Tasker::Tasker()
 {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	return 0;
+	thread = std::move(std::thread(&Tasker::run, this));
+}
+
+Tasker::~Tasker()
+{
+	thread.join();
+}
+
+void Tasker::run()
+{
+
 }

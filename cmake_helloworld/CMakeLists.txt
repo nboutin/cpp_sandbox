@@ -11,6 +11,6 @@ file(
 )
 
 add_executable(
-  cmake_helloworld
+  ${PROJECT_NAME}
   ${sources}
 )

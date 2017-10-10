@@ -1,3 +1,6 @@
+# Eclipse
+.settings/
+
 # CMake
 CMakeCache.txt
 CMakeFiles/

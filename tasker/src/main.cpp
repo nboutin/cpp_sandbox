@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-	Tasker t1, t2;
+  Tasker t1, t2;
 
-	this_thread::sleep_for(5s);
+  this_thread::sleep_for(5s);
 
-	return 0;
+  return 0;
 }

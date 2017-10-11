@@ -4,19 +4,18 @@
 
 #pragma once
 
-#include <thread>
 #include <atomic>
+#include <thread>
 
 class Tasker
 {
 public:
-	Tasker();
-	~Tasker();
+  Tasker();
+  ~Tasker();
 
-	void run();
+  void run();
 
 private:
-	std::thread thread;
-	std::atomic<bool> is_terminate;
+  std::thread thread;
+  std::atomic<bool> is_terminate;
 };
-

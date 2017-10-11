@@ -1,8 +1,11 @@
 //
+//
+//
 
 #pragma once
 
 #include <thread>
+#include <atomic>
 
 class Tasker
 {
@@ -14,5 +17,6 @@ public:
 
 private:
 	std::thread thread;
+	std::atomic<bool> is_terminate;
 };
 

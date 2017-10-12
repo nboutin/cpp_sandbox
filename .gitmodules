@@ -1,0 +1,3 @@
+[submodule "tasker/tool_config_howto"]
+	path = tasker/tool_config_howto
+	url = https://github.com/nboutin/tool_config_howto.git

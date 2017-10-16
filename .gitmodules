@@ -4,3 +4,6 @@
 [submodule "cmake_helloworld/tool_config_howto"]
 	path = cmake_helloworld/tool_config_howto
 	url = https://github.com/nboutin/tool_config_howto.git
+[submodule "idiom/constructor/tool_config_howto"]
+	path = idiom/constructor/tool_config_howto
+	url = https://github.com/nboutin/tool_config_howto.git

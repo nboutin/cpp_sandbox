@@ -1,3 +1,6 @@
 [submodule "tasker/tool_config_howto"]
 	path = tasker/tool_config_howto
 	url = https://github.com/nboutin/tool_config_howto.git
+[submodule "cmake_helloworld/tool_config_howto"]
+	path = cmake_helloworld/tool_config_howto
+	url = https://github.com/nboutin/tool_config_howto.git

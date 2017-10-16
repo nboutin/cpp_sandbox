@@ -5,12 +5,6 @@
 #include <iostream>
 using namespace std;
 
-Foo::Foo()
-{
+Foo::Foo() {}
 
-}
-
-void Foo::print()
-{
-	cout << __PRETTY_FUNCTION__ << endl;
-}
+void Foo::print() { cout << __PRETTY_FUNCTION__ << endl; }

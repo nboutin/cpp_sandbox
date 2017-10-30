@@ -3,7 +3,7 @@
 class Foo
 {
 public:
-  Foo();
+  Foo() = default;
 
   void print();
 

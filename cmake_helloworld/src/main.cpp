@@ -5,7 +5,7 @@ using namespace std;
 
 #include "foo.hpp"
 
-int main(int argc, char** argv)
+int main()
 {
   cout << "cmake hello world" << endl;
 

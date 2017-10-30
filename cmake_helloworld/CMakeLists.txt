@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 
+cmake_policy(SET CMP0009 NEW)
+
 # Including custom cmake rules
 include(cmake/clang-cxx-dev-tools.cmake)
 
@@ -11,6 +13,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 file(
   GLOB_RECURSE
   sources
+  FOLLOW_SYMLINKS
   src/*
 )
 

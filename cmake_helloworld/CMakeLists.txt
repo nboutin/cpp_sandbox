@@ -5,7 +5,7 @@ include(cmake/clang-cxx-dev-tools.cmake)
 
 project(cmake_helloworld)
 
-set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
+set(EXECUTABLE_OUTPUT_PATH ../bin/${CMAKE_BUILD_TYPE})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 file(

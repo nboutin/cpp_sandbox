@@ -1,0 +1,7 @@
+@startuml
+
+[*] --> Open
+Open --> Close : close
+Close --> Open : open
+
+@enduml
